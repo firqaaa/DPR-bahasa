@@ -3,28 +3,28 @@ Indonesian Dense Passage Retrieval trained on translated SQuADv2.0 dataset in DP
 
 ### Summary : 
 
-<p>\\|//       \\|//      \\|//       \\|//     \\|//</p>
+\\|//&emsp;&emsp;&emsp;&emsp;&emsp;\\|//&emsp;&emsp;&emsp;&emsp;&emsp;\\|//&emsp;&emsp;&emsp;&emsp;&emsp;\\|//&emsp;&emsp;&emsp;&emsp;\\|// <br>
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-***************************************************
-***** EVALUATION | DEV SET | AFTER 6000 BATCHES ***
-***************************************************
-\\|//       \\|//      \\|//       \\|//     \\|//
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-INFO - haystack.modeling.evaluation.eval -  
- _________ text_similarity _________
-INFO - haystack.modeling.evaluation.eval -  loss: 0.04225207879893027
-INFO - haystack.modeling.evaluation.eval -  task_name: text_similarity
-INFO - haystack.modeling.evaluation.eval -  acc: 0.9928042328042328
-INFO - haystack.modeling.evaluation.eval -  f1: 0.8849407783417935
-INFO - haystack.modeling.evaluation.eval -  acc_and_f1: 0.9388725055730132
-INFO - haystack.modeling.evaluation.eval -  average_rank: 0.24027072758037224
-INFO - haystack.modeling.evaluation.eval -  report: 
+<p>****************************************************************** </p>
+<p>***** &nbsp;EVALUATION &emsp;| &emsp;DEV SET &emsp;| AFTER 6000 BATCHES &nbsp;****** </p>
+<p>****************************************************************** <p>
+\\|//&emsp;&emsp;&emsp;&emsp;&emsp;\\|//&emsp;&emsp;&emsp;&emsp;&emsp;\\|//&emsp;&emsp;&emsp;&emsp;&emsp;\\|//&emsp;&emsp;&emsp;&emsp;\\|// <br>
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^ <br>
+<b>INFO</b> - haystack.modeling.evaluation.eval - <br>
+ _________ text_similarity _________ <br>
+<b>INFO</b> - haystack.modeling.evaluation.eval &nbsp;-&nbsp; loss&nbsp;:&nbsp; 0.04225207879893027 <br>
+<b>INFO</b> - haystack.modeling.evaluation.eval &nbsp;-&nbsp;  task_name&nbsp;:&nbsp; text_similarity<br>
+<b>INFO</b> - haystack.modeling.evaluation.eval &nbsp;-&nbsp;  acc&nbsp;:&nbsp; 0.9928042328042328<br>
+<b>INFO</b> - haystack.modeling.evaluation.eval &nbsp;-&nbsp;  f1&nbsp;:&nbsp; 0.8849407783417935<br>
+<b>INFO</b> - haystack.modeling.evaluation.eval &nbsp;-&nbsp;  acc_and_f1&nbsp;:&nbsp; 0.9388725055730132<br>
+<b>INFO</b> - haystack.modeling.evaluation.eval &nbsp;-&nbsp;  average_rank&nbsp;:&nbsp; 0.24027072758037224<br>
+<b>INFO</b> - haystack.modeling.evaluation.eval &nbsp;-&nbsp;  report&nbsp;:&nbsp;<br>
 
-                precision    recall  f1-score   support
+&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;precision&emsp;&emsp;recall&emsp;&emsp;f1-score&emsp;&emsp;support
 
-hard_negative     0.9963    0.9963    0.9963    183090
-     positive     0.8849    0.8849    0.8849      5910
+hard_negative&emsp;&emsp;&emsp;0.9963&emsp;&emsp;&emsp;0.9963&emsp;&emsp;&emsp;0.9963&emsp;&emsp;&emsp;183090<br>
+positive&emsp;&emsp;&emsp;&emsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;0.8849&emsp;&emsp;&emsp;0.8849&emsp;&emsp;&nbsp;&nbsp;&nbsp;0.8849&emsp;&emsp;&emsp;&emsp;5910
 
-     accuracy                         0.9928    189000
-    macro avg     0.9406    0.9406    0.9406    189000
- weighted avg     0.9928    0.9928    0.9928    189000
+accuracy&emsp;&emsp;&emsp;&emsp;&emsp;&nbsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&nbsp;&nbsp;&nbsp;0.9928&emsp;&emsp;&emsp;189000<br>
+macro avg&emsp;&emsp;&emsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;0.9406&emsp;&emsp;&emsp;0.9406&emsp;&emsp;&nbsp;&nbsp;0.9406&emsp;  &emsp;&nbsp;&nbsp;&nbsp;189000<br>
+weighted avg&emsp;&emsp;&emsp;&nbsp;&nbsp;0.9928&emsp;&emsp;&emsp;0.9928&emsp;&emsp;&nbsp;&nbsp;0.9928&emsp;&emsp;&emsp;189000<br>
