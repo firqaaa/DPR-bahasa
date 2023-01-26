@@ -1,5 +1,9 @@
+---
+license: cc-by-nc-sa-4.0
+---
 ### indo-dpr-question_encoder-single-squad-base
-Indonesian Dense Passage Retrieval trained on translated SQuADv2.0 dataset in DPR format.
+<p style="font-size:16px">Indonesian Dense Passage Retrieval trained on translated SQuADv2.0 dataset in DPR format.</p>
+
 
 ### Evaluation 
 
@@ -14,4 +18,4 @@ Indonesian Dense Passage Retrieval trained on translated SQuADv2.0 dataset in DP
 | Macro Average | 0.9406 |
 | Weighted Average | 0.9928 |
 
-Note: This report is for evaluation on the dev set, after 12000 batches.
+<p style="font-size:16px">Note: This report is for evaluation on the dev set, after 12000 batches.</p>
