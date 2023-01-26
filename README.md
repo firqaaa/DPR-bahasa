@@ -3,7 +3,7 @@ Indonesian Dense Passage Retrieval trained on translated SQuADv2.0 dataset in DP
 
 ### Summary : 
 
-\\|//       \\|//      \\|//       \\|//     \\|//
+<p>\\|//       \\|//      \\|//       \\|//     \\|//</p>
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 ***************************************************
 ***** EVALUATION | DEV SET | AFTER 6000 BATCHES ***
