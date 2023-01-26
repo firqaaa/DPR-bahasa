@@ -1,6 +1,3 @@
----
-license: cc-by-nc-sa-4.0
----
 ### indo-dpr-question_encoder-single-squad-base
 <p style="font-size:16px">Indonesian Dense Passage Retrieval trained on translated SQuADv2.0 dataset in DPR format.</p>
 
