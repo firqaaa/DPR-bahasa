@@ -14,7 +14,7 @@ metrics:
 datasets:
 - squad_v2
 ---
-### indo-dpr-question_encoder-single-squad-base
+### indo-dpr-passage_encoder-single-squad-base
 <p style="font-size:16px">Indonesian Dense Passage Retrieval trained on translated SQuADv2.0 dataset in DPR format.</p>
 
 
@@ -37,6 +37,7 @@ datasets:
 
 ```python
 from transformers import DPRContextEncoder, DPRContextEncoderTokenizer
+
 tokenizer = DPRContextEncoderTokenizer.from_pretrained('firqaaa/indo-dpr-passage_encoder-single-squad-base')
 model = DPRContextEncoder.from_pretrained('firqaaa/indo-dpr-passage_encoder-single-squad-base')
 input_ids = tokenizer("Ibukota Indonesia terletak dimana?", return_tensors='pt')["input_ids"]
