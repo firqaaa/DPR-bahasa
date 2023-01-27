@@ -14,7 +14,7 @@ metrics:
 datasets:
 - squad_v2
 ---
-### indo-dpr-passage_encoder-single-squad-base
+### indo-dpr-ctx_encoder-single-squad-base
 <p style="font-size:16px">Indonesian Dense Passage Retrieval trained on translated SQuADv2.0 dataset in DPR format.</p>
 
 
@@ -38,8 +38,8 @@ datasets:
 ```python
 from transformers import DPRContextEncoder, DPRContextEncoderTokenizer
 
-tokenizer = DPRContextEncoderTokenizer.from_pretrained('firqaaa/indo-dpr-passage_encoder-single-squad-base')
-model = DPRContextEncoder.from_pretrained('firqaaa/indo-dpr-passage_encoder-single-squad-base')
+tokenizer = DPRContextEncoderTokenizer.from_pretrained('firqaaa/indo-dpr-ctx_encoder-single-squad-base')
+model = DPRContextEncoder.from_pretrained('firqaaa/indo-dpr-ctx_encoder-single-squad-base')
 input_ids = tokenizer("Ibukota Indonesia terletak dimana?", return_tensors='pt')["input_ids"]
 embeddings = model(input_ids).pooler_output
 ```
@@ -51,8 +51,8 @@ from haystack.nodes import DensePassageRetriever
 from haystack.document_stores import InMemoryDocumentStore
 
 retriever = DensePassageRetriever(document_store=InMemoryDocumentStore(),
-                                  query_embedding_model="firqaaa/indo-dpr-passage_encoder-single-squad-base",
-                                  passage_embedding_model="firqaaa/indo-dpr-passage_encoder-single-squad-base",
+                                  query_embedding_model="firqaaa/indo-dpr-ctx_encoder-single-squad-base",
+                                  passage_embedding_model="firqaaa/indo-dpr-ctx_encoder-single-squad-base",
                                   max_seq_len_query=64,
                                   max_seq_len_passage=256,
                                   batch_size=16,
